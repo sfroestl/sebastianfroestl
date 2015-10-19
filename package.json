@@ -1,15 +1,18 @@
 {
-  "name": "sebastianfroestl.de",
-  "version": "0.0.1",
-  "authors": [
-    "Basti <sebastian@froestl.com>",
-    "Jogga <joachim@froestl.com>"
-  ],
-  "description": "bastis about page",
-  "dependencies": {
-    "gulp": "^3.9.0",
-    "gulp-less": "^3.0.3",
-    "gulp-watch": "^4.3.5",
-    "less": "^2.5.3"
-  }
+    "name": "sebastianfroestl.de",
+    "version": "0.0.1",
+    "authors": [
+        "Basti <sebastian@froestl.com>",
+        "Jogga <joachim@froestl.com>"
+    ],
+    "scripts": {
+        "build": "node_modules/gulp/bin/gulp.js"
+    },
+    "description": "bastis about page",
+    "dependencies": {
+        "gulp": "^3.9.0",
+        "gulp-less": "^3.0.3",
+        "gulp-watch": "^4.3.5",
+        "less": "^2.5.3"
+    }
 }
